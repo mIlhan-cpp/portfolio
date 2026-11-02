@@ -48,7 +48,18 @@ body {
 }
 
 @media (max-width: 768px) {
-  .gradient-feature-section { background-attachment: scroll; }
+  /* On narrow screens, keep the source texture at its natural aspect ratio.
+     Avoid cover-scales that zoom/crop the 16:9 image across tall sections. */
+  .gradient-feature-section {
+    background-color: #08091b;
+    background-attachment: scroll;
+    background-size: 100% 100%, 100% auto;
+    background-position: center, center top;
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(180deg, rgba(5, 7, 22, .56), rgba(5, 7, 22, .94) 72%),
+      url('/experience-work-gradient.jpg');
+  }
 }
 
 /* A quiet atmospheric field: light behaves like distant blue light, not UI decoration. */

@@ -1,9 +1,15 @@
+
 # Milhan Khan portfolio
 
 npm install && npm run dev      # local
 npm run build                   # production build in dist/
 
 A responsive personal portfolio showcasing my work as an AI Engineer and Full-Stack Developer. It brings together selected projects, professional experience, technical skills, and contact information in a dark, atmospheric interface.
+
+# Milhan Khan — Portfolio
+
+A responsive personal portfolio showcasing my work as an **AI Engineer and Full-Stack Developer**. It brings together selected projects, professional experience, technical skills, and contact information in a dark, atmospheric interface.
+
 
 ## Highlights
 
