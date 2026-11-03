@@ -17,7 +17,7 @@ export default function Hero() {
           style={{ x: m.x * -18 }} className="bgname select-none whitespace-nowrap text-[min(19vw,17rem)] font-extrabold leading-[.9]">MILHAN KHAN</motion.div>
       </motion.div>
       <motion.div className="relative z-10 mx-auto w-full max-w-6xl px-5" initial="hidden" animate="show" transition={{ staggerChildren: 0.15, delayChildren: 0.4 }}>
-        <motion.p variants={line} className="mb-2 tracking-widest text-ac2">HELLO, I’M</motion.p>
+        <motion.p variants={line} className="mb-2 tracking-widest text-ac2">HELLO, I’M MILHAN,</motion.p>
         <motion.h1 variants={line} className="mb-5 text-[clamp(2rem,6vw,4.5rem)] font-extrabold uppercase leading-none">AI/ML Engineer<br />&amp; Full-Stack Developer</motion.h1>
         <motion.p variants={line} className="mb-7 max-w-md text-mute">I build intelligent applications, experiment with emerging AI technologies and turn ideas into useful digital products.</motion.p>
         <motion.div variants={line} className="flex flex-wrap gap-3">
